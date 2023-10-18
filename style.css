@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #008170;
+}
+h1{
+text-align: center;
+color: #F5F5F5;
+}
+form {
+    background-color: #C1D8C3;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 5px 5px  #0e0f10;
+}
+.row{
+    display: block;
+}
+.col{
+    width: 50%;
+    display: inline-block;
+
+}
+.col2 label{
+   margin-left: 1rem;
+}
+.col2 input[type="text"]{
+    margin-left: 1rem;
+}
+.col2 select{
+    margin-left: 1rem;
+}
+.col2 input[type="tel"]{
+margin-left: 1rem;
+}
+.date{
+    margin-top: 4px;
+    width: 92%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #252424;
+}
+.date:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+.country{
+    width: 94%;
+}
+label {
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid #252424;
+    border-radius: 5px;
+
+}
+input[type="text"]:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+input[type="email"]:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+input[type="tel"]:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+select:hover{
+    border:1px solid #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+.gender{
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-right: 3rem;
+    font-weight: 500;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color:  #008170;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem 2rem 1rem 2rem;
+}
+button:hover{
+    background-color: #008170;
+
+}
+.buttons{
+text-align: center;
+}
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#popup-content {
+    background-color: #fff;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+p{
+    font-weight: 600;
+}
+p span{
+    font-weight: 500;
+}
